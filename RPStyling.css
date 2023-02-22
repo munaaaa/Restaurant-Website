@@ -1,0 +1,43 @@
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Main Header */
+
+.mainheader {
+background-color:#BF4949;
+background-position: center;
+background-size: cover;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.mainheadertitle {
+    color: white;
+    text-align: left;
+    display: inline-block;
+    font-family: gloock;
+    font-weight: 60px;
+    font-size: 10px;
+    padding: 30px;
+}
+
+.headerlinks {
+padding: 20px;
+}
+
+.menubutton {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+
