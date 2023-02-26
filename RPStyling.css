@@ -5,15 +5,17 @@
     padding: 0;
 }
 
+body {
+    background-color: white;
+}
 
-
-/* Main Header */
+/* Header */
 
 .mainheader {
 background-color:#BF4949;
 background-position: center;
 background-size: cover;
-height: 400px;
+height: 200px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -40,4 +42,47 @@ padding: 20px;
     float: right;
 }
 
+/* Introduction */
 
+.information {
+    font-family:'Cormorant Garamond';
+    margin: 20px;
+    text-align: center;
+}
+
+/* Main page */
+
+.recipes {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Roast Chicken */
+
+.roastchicken {
+    border: 1px dotted black;
+    max-width: fit-content;
+}
+
+.rcheader {
+    padding: 10px
+
+}
+
+.rcimage {
+width: 400px;
+padding: 30px;
+}
+
+.rctable {
+padding-bottom: 30px;
+}
+
+.rcmethod {
+    padding: 10px;
+}
+
+h6 {
+   font-size: 13px;
+   padding-bottom: 20px;
+}
