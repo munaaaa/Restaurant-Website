@@ -23,12 +23,8 @@ align-items: center;
 
 .mainheadertitle {
     color: white;
-    text-align: left;
-    display: inline-block;
-    font-family: gloock;
-    font-weight: 60px;
-    font-size: 10px;
-    padding: 30px;
+    display:flex;
+    flex-direction: column;
 }
 
 .headerlinks {
@@ -60,29 +56,39 @@ padding: 20px;
 /* Roast Chicken */
 
 .roastchicken {
-    border: 1px dotted black;
+    border: 1px solid black;
     max-width: fit-content;
 }
 
 .rcheader {
-    padding: 10px
-
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .rcimage {
 width: 400px;
 padding: 30px;
+display: flex;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 .rctable {
 padding-bottom: 30px;
+display: flex;
+justify-content: center;
+}
+
+.line {
+    height: 1px;
+    background-color: gray;
 }
 
 .rcmethod {
-    padding: 10px;
-}
-
-h6 {
-   font-size: 13px;
-   padding-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
 }
